@@ -1,0 +1,24 @@
+﻿@model ControleContas.Models.Conta
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Excluir Conta</h1>
+
+<h3>Você tem certeza que deseja excluir esta conta?</h3>
+
+<div>
+    <h4>@Model.Descricao</h4>
+    <p>
+        <strong>Valor:</strong> @Model.Valor<br />
+        <strong>Data Cadastro:</strong> @Model.DataCadastro.ToShortDateString()<br />
+        <strong>Vencimento:</strong> @Model.Vencimento.ToShortDateString()<br />
+        <strong>Status:</strong> @Model.Status
+    </p>
+    <form asp-action="DeleteConfirmed">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Excluir</button> |
+        <a asp-action="Index">Cancelar</a>
+    </form>
+</div>

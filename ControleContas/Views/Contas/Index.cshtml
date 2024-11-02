@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ControleContas.Models.Conta>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Contas</h1>
+
+<p>
+    <a asp-action="Create">Criar Nova Conta</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Data Cadastro</th>
+            <th>Vencimento</th>
+            <th>Parcela</th>
+            <th>Status</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Descricao</td>
+                <td>@string.Format("{0:F2}", item.Valor)</td>
+                <td>@(item.DataCadastro != DateTime.MinValue ? item.DataCadastro.ToString("dd/MM/yyyy") : "")</td>
+                <td>@(item.Vencimento != DateTime.MinValue ? item.Vencimento.ToString("dd/MM/yyyy") : "")</td>
+                <td>@item.Parcela</td>
+                <td>@item.Status.ToString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

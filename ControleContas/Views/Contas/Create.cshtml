@@ -1,0 +1,35 @@
+﻿@model ControleContas.Models.Conta
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Criar Conta</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Descricao"></label>
+        <input asp-for="Descricao" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Valor"></label>
+        <input asp-for="Valor" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="DataCadastro"></label>
+        <input asp-for="DataCadastro" class="form-control" type="date" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Vencimento"></label>
+        <input asp-for="Vencimento" class="form-control" type="date" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Parcela"></label>
+        <input asp-for="Parcela" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Status"></label>
+        <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<ControleContas.Models.StatusConta>()"></select>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
