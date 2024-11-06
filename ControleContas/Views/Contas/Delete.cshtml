@@ -4,21 +4,54 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Excluir Conta</h1>
+<h1>Delete</h1>
 
-<h3>Você tem certeza que deseja excluir esta conta?</h3>
-
+<h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>@Model.Descricao</h4>
-    <p>
-        <strong>Valor:</strong> @Model.Valor<br />
-        <strong>Data Cadastro:</strong> @Model.DataCadastro.ToShortDateString()<br />
-        <strong>Vencimento:</strong> @Model.Vencimento.ToShortDateString()<br />
-        <strong>Status:</strong> @Model.Status
-    </p>
-    <form asp-action="DeleteConfirmed">
+    <h4>Conta</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Vencimento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Vencimento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parcela)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parcela)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StatusConta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StatusConta)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <button type="submit" class="btn btn-danger">Excluir</button> |
-        <a asp-action="Index">Cancelar</a>
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
     </form>
 </div>

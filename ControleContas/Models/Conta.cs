@@ -12,7 +12,7 @@
 
         public required string Parcela { get; set; } // Se for usado para representar número/ordem de parcelas, isso está correto
 
-        public StatusConta Status { get; set; } // Enum para status da conta
+        public StatusConta StatusConta { get; set; } // Enum para status da conta
     }
 
     public enum StatusConta

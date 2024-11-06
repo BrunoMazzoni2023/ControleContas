@@ -8,9 +8,9 @@ namespace ControleContas.Controllers
 {
     public class AuthController : Controller
     {
-        private readonly ControleContasContext _context;
+        private readonly ContasContext _context;
 
-        public AuthController(ControleContasContext context)
+        public AuthController(ContasContext context)
         {
             _context = context;
         }
@@ -32,7 +32,8 @@ namespace ControleContas.Controllers
             }
 
             ModelState.AddModelError("", "Email ou senha inválidos.");
-            return View();
+            return RedirectToAction("AccessDenied", "Auth");
+            //return View();
         }
 
         // Ação para exibir a página de registro
@@ -50,5 +51,10 @@ namespace ControleContas.Controllers
             }
             return View(usuario);
         }
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
+  
 }

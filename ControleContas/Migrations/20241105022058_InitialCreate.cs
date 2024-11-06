@@ -16,7 +16,7 @@ namespace ControleContas.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Contas",
+                name: "Conta",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -28,11 +28,12 @@ namespace ControleContas.Migrations
                     Vencimento = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Parcela = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Status = table.Column<int>(type: "int", nullable: false)
+                    StatusConta = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Contas", x => x.Id);
+                    table.PrimaryKey("PK_Conta", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -60,7 +61,7 @@ namespace ControleContas.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Contas");
+                name: "Conta");
 
             migrationBuilder.DropTable(
                 name: "Usuarios");

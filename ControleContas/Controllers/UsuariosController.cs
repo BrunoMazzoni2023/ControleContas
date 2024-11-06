@@ -7,9 +7,9 @@ namespace ControleContas.Controllers
 {
     public class UsuariosController : Controller
     {
-        private readonly ControleContasContext _context;
+        private readonly ContasContext _context;
 
-        public UsuariosController(ControleContasContext context)
+        public UsuariosController(ContasContext context)
         {
             _context = context;
         }

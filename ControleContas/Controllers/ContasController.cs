@@ -12,9 +12,9 @@ namespace ControleContas.Controllers
 {
     public class ContasController : Controller
     {
-        private readonly ControleContasContext _context;
+        private readonly ContasContext _context;
 
-        public ContasController(ControleContasContext context)
+        public ContasController(ContasContext context)
         {
             _context = context;
         }
@@ -22,7 +22,20 @@ namespace ControleContas.Controllers
         // GET: Contas
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Contas.ToListAsync());
+            var contas = await _context.Conta.ToListAsync();
+
+            // Atualiza o status das contas com base na data de vencimento
+            foreach (var conta in contas)
+            {
+                if (conta.Vencimento < DateTime.Now && conta.StatusConta == StatusConta.Pendente)
+                {
+                    conta.StatusConta = StatusConta.Vencido;
+                    _context.Update(conta);
+                }
+            }
+
+            await _context.SaveChangesAsync();
+            return View(contas);
         }
 
         // GET: Contas/Details/5
@@ -33,14 +46,13 @@ namespace ControleContas.Controllers
                 return NotFound();
             }
 
-            var contas = await _context.Contas
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (contas == null)
+            var conta = await _context.Conta.FirstOrDefaultAsync(m => m.Id == id);
+            if (conta == null)
             {
                 return NotFound();
             }
 
-            return View(contas);
+            return View(conta);
         }
 
         // GET: Contas/Create
@@ -50,24 +62,36 @@ namespace ControleContas.Controllers
         }
 
         // POST: Contas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Conta conta)
+        public async Task<IActionResult> Create([Bind("Id,Descricao,Valor,DataCadastro,Vencimento,Parcela,StatusConta")] Conta conta)
         {
             if (ModelState.IsValid)
             {
-                conta.DataCadastro = DateTime.Now; // Define a data de cadastro como agora
-                                                   // Defina Vencimento conforme sua lógica, por exemplo, 30 dias a partir de agora
-                conta.Vencimento = DateTime.Now.AddDays(30); // Exemplo
-                _context.Contas.Add(conta);
-                _context.SaveChanges();
+                conta.StatusConta = StatusConta.Pendente; // Define o status como Pendente ao criar
+                _context.Add(conta);
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(conta);
         }
 
+        // Método para verificar e atualizar o status das contas vencidas
+        public async Task<IActionResult> VerificarVencimentos()
+        {
+            var contas = await _context.Conta
+                .Where(c => c.Vencimento < DateTime.Now && c.StatusConta != StatusConta.Pago)
+                .ToListAsync();
+
+            foreach (var conta in contas)
+            {
+                conta.StatusConta = StatusConta.Vencido;
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
 
         // GET: Contas/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -77,22 +101,20 @@ namespace ControleContas.Controllers
                 return NotFound();
             }
 
-            var contas = await _context.Contas.FindAsync(id);
-            if (contas == null)
+            var conta = await _context.Conta.FindAsync(id);
+            if (conta == null)
             {
                 return NotFound();
             }
-            return View(contas);
+            return View(conta);
         }
 
         // POST: Contas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Descricao,Valor,Parcela,DataCriacao,DataVencimento")] Conta contas)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Descricao,Valor,DataCadastro,Vencimento,Parcela,StatusConta")] Conta conta)
         {
-            if (id != contas.Id)
+            if (id != conta.Id)
             {
                 return NotFound();
             }
@@ -101,12 +123,12 @@ namespace ControleContas.Controllers
             {
                 try
                 {
-                    _context.Update(contas);
+                    _context.Update(conta);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ContasExists(contas.Id))
+                    if (!ContaExists(conta.Id))
                     {
                         return NotFound();
                     }
@@ -117,7 +139,7 @@ namespace ControleContas.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(contas);
+            return View(conta);
         }
 
         // GET: Contas/Delete/5
@@ -128,14 +150,13 @@ namespace ControleContas.Controllers
                 return NotFound();
             }
 
-            var contas = await _context.Contas
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (contas == null)
+            var conta = await _context.Conta.FirstOrDefaultAsync(m => m.Id == id);
+            if (conta == null)
             {
                 return NotFound();
             }
 
-            return View(contas);
+            return View(conta);
         }
 
         // POST: Contas/Delete/5
@@ -143,19 +164,19 @@ namespace ControleContas.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var contas = await _context.Contas.FindAsync(id);
-            if (contas != null)
+            var conta = await _context.Conta.FindAsync(id);
+            if (conta != null)
             {
-                _context.Contas.Remove(contas);
+                _context.Conta.Remove(conta);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ContasExists(int id)
+        private bool ContaExists(int id)
         {
-            return _context.Contas.Any(e => e.Id == id);
+            return _context.Conta.Any(e => e.Id == id);
         }
     }
 }

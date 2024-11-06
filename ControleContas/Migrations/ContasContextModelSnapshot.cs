@@ -4,19 +4,16 @@ using ControleContas.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
 namespace ControleContas.Migrations
 {
-    [DbContext(typeof(ControleContasContext))]
-    [Migration("20241102171655_InitialCreate")]
-    partial class InitialCreate
+    [DbContext(typeof(ContasContext))]
+    partial class ContasContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,8 +41,9 @@ namespace ControleContas.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("StatusConta")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<decimal>("Valor")
                         .HasColumnType("decimal(65,30)");
@@ -55,7 +53,7 @@ namespace ControleContas.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Contas");
+                    b.ToTable("Conta");
                 });
 
             modelBuilder.Entity("ControleContas.Models.Usuario", b =>
