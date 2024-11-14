@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,22 +19,24 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-
+// Configura autenticação usando cookies
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Auth/Login";
+        options.LogoutPath = "/Auth/Logout";
+        options.AccessDeniedPath = "/Auth/AccessDenied";
+    });
 
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
  builder.Services.AddDbContext<ContasContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
-
-builder.Services.AddAuthentication("CookieAuth")
-  .AddCookie("CookieAuth", options =>
- {
-       options.LoginPath = "/Auth/Login"; // Defina o caminho para a p�gina de login
-   options.AccessDeniedPath = "/Auth/AccessDenied"; // Defina o caminho para a p�gina de acesso negado
-   });
 
 
 var app = builder.Build();
@@ -56,6 +59,7 @@ app.UseSession();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

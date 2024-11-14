@@ -3,76 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Bag\\source\\repos\\ControleContas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\contas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\contas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\services\\contaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\services\\contaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\data\\contascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\data\\contascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Migrations\\20241105022058_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleContas\\Migrations\\20241105022058_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\contas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\contas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\contas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\contas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\contas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\contas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\auth\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\auth\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|c:\\users\\bag\\source\\repos\\controlecontas\\controlecontas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D75BD3-90EC-436B-AFA1-26AD9F13700C}|ControleContas\\ControleContas.csproj|solutionrelative:controlecontas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,240 +46,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20241105022058_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Migrations\\20241105022058_InitialCreate.cs",
-              "RelativeDocumentMoniker": "ControleContas\\Migrations\\20241105022058_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Migrations\\20241105022058_InitialCreate.cs",
-              "RelativeToolTip": "ControleContas\\Migrations\\20241105022058_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T02:20:58.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\appsettings.json",
-              "RelativeDocumentMoniker": "ControleContas\\appsettings.json",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\appsettings.json",
-              "RelativeToolTip": "ControleContas\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T02:19:09.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Program.cs",
-              "RelativeDocumentMoniker": "ControleContas\\Program.cs",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Program.cs",
-              "RelativeToolTip": "ControleContas\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T02:19:04.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContasContext.cs",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Data\\ContasContext.cs",
-              "RelativeDocumentMoniker": "ControleContas\\Data\\ContasContext.cs",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Data\\ContasContext.cs",
-              "RelativeToolTip": "ControleContas\\Data\\ContasContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T02:16:22.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Conta.cs",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Models\\Conta.cs",
-              "RelativeDocumentMoniker": "ControleContas\\Models\\Conta.cs",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Models\\Conta.cs",
-              "RelativeToolTip": "ControleContas\\Models\\Conta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T02:15:51.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Contas\\Index.cshtml",
-              "RelativeDocumentMoniker": "ControleContas\\Views\\Contas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Contas\\Index.cshtml",
-              "RelativeToolTip": "ControleContas\\Views\\Contas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControleContas\\Views\\Auth\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\Index.cshtml",
+              "RelativeToolTip": "ControleContas\\Views\\Auth\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T02:12:46.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContaService.cs",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Services\\ContaService.cs",
-              "RelativeDocumentMoniker": "ControleContas\\Services\\ContaService.cs",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Services\\ContaService.cs",
-              "RelativeToolTip": "ControleContas\\Services\\ContaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T02:05:17.723Z",
+              "WhenOpened": "2024-11-12T03:18:16.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\Logout.cshtml",
+              "RelativeDocumentMoniker": "ControleContas\\Views\\Auth\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\Logout.cshtml",
+              "RelativeToolTip": "ControleContas\\Views\\Auth\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T03:12:14.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControleContas\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ControleContas\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T00:51:51.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ContasController.cs",
               "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\ContasController.cs",
               "RelativeDocumentMoniker": "ControleContas\\Controllers\\ContasController.cs",
               "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\ContasController.cs",
               "RelativeToolTip": "ControleContas\\Controllers\\ContasController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:32:47.435Z",
+              "WhenOpened": "2024-11-11T00:49:43.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "ControleContas\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "ControleContas\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "ControleContas\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "ControleContas\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T02:27:16.736Z",
+              "WhenOpened": "2024-11-11T00:45:06.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Contas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ControleContas\\Views\\Contas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Contas\\Edit.cshtml",
-              "RelativeToolTip": "ControleContas\\Views\\Contas\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T01:39:36.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Contas\\Details.cshtml",
-              "RelativeDocumentMoniker": "ControleContas\\Views\\Contas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Contas\\Details.cshtml",
-              "RelativeToolTip": "ControleContas\\Views\\Contas\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T01:39:35.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Contas\\Create.cshtml",
-              "RelativeDocumentMoniker": "ControleContas\\Views\\Contas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Contas\\Create.cshtml",
-              "RelativeToolTip": "ControleContas\\Views\\Contas\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T01:38:08.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "ControleContas\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "ControleContas\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Program.cs",
+              "RelativeDocumentMoniker": "ControleContas\\Program.cs",
+              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Program.cs",
+              "RelativeToolTip": "ControleContas\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:28:52.813Z",
+              "WhenOpened": "2024-11-10T14:13:41.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "ControleContas\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "ControleContas\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T00:58:13.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ControleContas\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ControleContas\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T00:50:52.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ControleContas\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ControleContas\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T00:46:19.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AccessDenied.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\AccessDenied.cshtml",
-              "RelativeDocumentMoniker": "ControleContas\\Views\\Auth\\AccessDenied.cshtml",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\AccessDenied.cshtml",
-              "RelativeToolTip": "ControleContas\\Views\\Auth\\AccessDenied.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T00:46:07.809Z",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ControleContas\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ControleContas\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T00:50:52.029Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "ControleContas\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Bag\\source\\repos\\ControleContas\\ControleContas\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "ControleContas\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T00:46:00.46Z"
             }
           ]
         }

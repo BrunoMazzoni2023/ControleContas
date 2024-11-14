@@ -7,9 +7,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ControleContas.Data;
 using ControleContas.Models;
+using Microsoft.AspNetCore.Authorization;
+
+
 
 namespace ControleContas.Controllers
 {
+    [Authorize]
     public class ContasController : Controller
     {
         private readonly ContasContext _context;
@@ -20,6 +24,7 @@ namespace ControleContas.Controllers
         }
 
         // GET: Contas
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var contas = await _context.Conta.ToListAsync();
@@ -56,6 +61,7 @@ namespace ControleContas.Controllers
         }
 
         // GET: Contas/Create
+     
         public IActionResult Create()
         {
             return View();
@@ -64,6 +70,7 @@ namespace ControleContas.Controllers
         // POST: Contas/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("Id,Descricao,Valor,DataCadastro,Vencimento,Parcela,StatusConta")] Conta conta)
         {
             if (ModelState.IsValid)

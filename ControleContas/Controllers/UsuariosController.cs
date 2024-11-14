@@ -2,6 +2,7 @@
 using ControleContas.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ControleContas.Controllers
 {
@@ -13,7 +14,7 @@ namespace ControleContas.Controllers
         {
             _context = context;
         }
-
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var usuarios = await _context.Usuarios.ToListAsync();

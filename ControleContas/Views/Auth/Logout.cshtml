@@ -1,0 +1,18 @@
+﻿@model ControleContas.Models.Usuario
+
+@{
+    ViewData["Title"] = "Logout";
+}
+<h2>Você está deslogado</h2>
+
+<h5>Faça o Login Novamente</h5>
+<li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Login">Login</a>
+    <a href="@Url.Action("Logout", "Auth")">Sair</a>
+
+    <form asp-action="Logout" asp-controller="Auth" method="post">
+        <button type="submit">Sair</button>
+    </form>
+</li>
+
+
