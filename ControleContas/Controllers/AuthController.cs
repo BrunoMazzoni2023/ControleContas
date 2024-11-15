@@ -23,6 +23,11 @@ namespace ControleContas.Controllers
         // Ação para exibir a página de login
         public IActionResult Login() => View();
 
+        public IActionResult Index()
+        {
+            return View();
+        }
+
         // Ação para processar o login
         [HttpPost]
         public async Task<IActionResult> Login(string email, string senha)
@@ -55,7 +60,7 @@ namespace ControleContas.Controllers
                                               authProperties);
 
                 // Redireciona para a página inicial
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Auth");
             }
 
             // Adiciona erro ao ModelState e redireciona para a página de acesso negado se o login falhar
@@ -91,7 +96,7 @@ namespace ControleContas.Controllers
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-            return RedirectToAction("Logout", "Auth");
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult AccessDenied()
